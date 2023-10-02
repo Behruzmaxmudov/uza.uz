@@ -218,7 +218,6 @@ ul.special_mode li:first-child a {
 }
 
 /* Header Bottom */
-.header_bottom {}
 
 form.search {
   width: 760px;
@@ -535,4 +534,62 @@ ul.vmenu li a:hover:before {
 }.fot p:hover{
   cursor: pointer;
   color: aqua;
+}
+.fly{
+  background: url('https://cdn.uza.uz/2021/01/22/11/21/dIyDtDp4kQOms4wHEuKgsoKwQcIAJQem_normal.jpg') no-repeat center;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.flydesc{
+  font-size: 20px;
+  padding: 30px;
+}
+.flydesc p{
+  padding: 20px;
+  background: #fff;
+  width: 500px;
+  color: var(--main);
+}
+.ff{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flytop{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.flytop p{
+  padding: 20px;
+}
+.flytop button:hover{
+  background: var(--main);
+  color: #fff;
+}
+.flytop button{
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid var(--main);
+}
+.imgcontent .imgbot img{
+  width: 330px;
+  border-radius: 20px;
+  padding: 10px;
+  transition: .8s ease-in-out;
+  object-fit: cover;
+}
+.imgcontent .imgbot{
+  display: flex;  
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.imgcontent .imgbot img:hover{
+  transform: scale(1.1);
 }
